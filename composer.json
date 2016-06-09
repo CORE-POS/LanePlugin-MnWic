@@ -1,0 +1,16 @@
+{
+    "name": "corepos/lane-plugin-mn-wic",
+    "description": "Lane plugin for accept MN WIC vouchers",
+    "type": "corepos-lane-plugin",
+    "require": {
+        "corepos/composer-installer": ">=1.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "license": "GPLv2",
+    "autoload": {
+        "exclude-from-classmap": ["/*.php", "/gui/", "/noauto/"]
+    },
+    "version": "1.0.0"
+}
